@@ -16,14 +16,14 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .header-logo-accent {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .nav-bar-link {
@@ -31,34 +31,37 @@ a {
     font-weight: 500;
     color: #2e2f42;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
-.nav-bar-link:hover {
+.nav-bar-link:hover,
+.nav-bar-link:focus {
     color: #404bbf;
 }
 
 .nav-bar-link:active {
     color: #404bbf;
-    text-decoration: underline;
+    /*text-decoration: underline;
     text-decoration-color: #404bbf;
     text-underline-offset: 20px;
     text-decoration-thickness: 4px;
-    text-underline-position: under;
+    text-underline-position: under;*/
 }
 
 .nav-bar-contact {
+    font-style: normal;
     font-size: 16px;
     color: #434455;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
-.nav-bar-contact:hover {
+.nav-bar-contact:hover,
+.nav-bar-contact:focus {
     color: #404bbf;
 }
 
-#hero-section {
+.hero-section {
     background-color: #2e2f42;
     text-align: center;
 }
@@ -68,28 +71,33 @@ a {
     font-size: 56px;
     color: #fff;
     line-height: 1.07;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 .cta-btn {
     background-color: #4d5ae5;
-    border-radius: 4px;
+    /*border-radius: 4px;
     border: 0px;
     box-shadow: 0 4px 4px 0 rgb(0 0 0 / .15);
     padding-left: 32px;
     padding-right: 32px;
     padding-top: 16px;
-    padding-bottom: 16px;
+    padding-bottom: 16px;*/
     font-weight: 500;
     font-size: 16px;
     color: #fff;
     line-height: 1.5;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
-.cta-btn:hover {
+.cta-btn:hover,
+.cta-btn:focus {
     background-color: #404bbf;
+}
+
+.team-section {
+    background: #f4f4fd;
 }
 
 .benefits-section-title,
@@ -97,10 +105,11 @@ a {
 .portfolio-section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 2%;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center;
+    text-transform: capitalize;
+    /*text-align: center;*/
 }
 
 .benefits-section-subtitle,
@@ -109,22 +118,22 @@ a {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
+/*
 .team-section-subtitle,
 .team-section-text {
     text-align: center;
 }
-
+*/
 .benefits-section-text,
 .team-section-text,
 .portfolio-section-text,
 .footer-text {
     font-size:16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -140,12 +149,12 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 
 .footer-logo-accent {
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
